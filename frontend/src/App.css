@@ -1,0 +1,382 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+/* 
+*{
+  margin: 0%;
+  padding: 0%;
+} */
+
+.connect-wallet-position{
+  margin-left: 80%;
+  margin-top: -46%;
+}
+
+.connecttxt{
+  text-decoration: none;
+  color: #38E54D;
+}
+
+.connecttxt1{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.connecttxt1:hover{
+  text-decoration: none;
+  color: #38E54D;
+}
+
+.connecttxt:hover{
+  text-decoration: none;
+  color: #38E54D;
+}
+
+
+.connect-wallet-button{
+  position: relative;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #38E54D;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.connect-wallet-button1{
+  position: relative;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 15px 30px;background-color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+
+
+.connect-wallet-button:hover{
+  color: #255784;
+  background: #38E54D;
+  box-shadow: 0 0 10px #38E54D, 0 0 40px #38E54D, 0 0 80px #38E54D;
+  transition-delay:1s ;
+}
+
+.connect-wallet-button span{
+  position: absolute;
+  display: block;
+}
+
+.connect-wallet-button span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#38E54D);
+}
+
+.connect-wallet-button:hover span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+
+.connect-wallet-button span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#38E54D);
+}
+
+.connect-wallet-button:hover span:nth-child(3){
+  right: 100%;
+  transition: 1s;
+  transition-delay:0.5s;
+}
+
+.connect-wallet-button span:nth-child(2){
+  top: -100%;
+  right: 0%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#38E54D);
+}
+
+.connect-wallet-button:hover span:nth-child(2){
+  top: 100%;
+  transition: 1s;
+  transition-delay:0.25s;
+}
+
+.connect-wallet-button span:nth-child(4){
+  bottom: -100%;
+  left: 0%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#38E54D);
+}
+
+.connect-wallet-button:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 1s;
+  transition-delay:0.75s;
+}
+
+
+
+
+
+
+
+
+
+.connect-wallet-position2{
+  margin-left: 42.5%;
+  margin-top: 300px;
+  animation-delay:6s;
+}
+
+
+.connect-wallet-button2{
+  position: relative;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #38E54D;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.connect-wallet-button2{
+  color: #255784;
+  background: #38e577;
+  transition-delay:1s ;
+}
+
+.connect-wallet-button2 span{
+  position: absolute;
+  display: block;
+}
+
+.connect-wallet-button2 span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#38E54D);
+}
+
+.connect-wallet-button2 span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+
+.connect-wallet-button2 span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#38E54D);
+}
+
+.connect-wallet-button2 span:nth-child(3){
+  right: 100%;
+  transition: 1s;
+  transition-delay:0.5s;
+}
+
+.connect-wallet-button2 span:nth-child(2){
+  top: -100%;
+  right: 0%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#38E54D);
+}
+
+.connect-wallet-button2 span:nth-child(2){
+  top: 100%;
+  transition: 1s;
+  transition-delay:0.25s;
+}
+
+.connect-wallet-button2 span:nth-child(4){
+  bottom: -100%;
+  left: 0%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#38E54D);
+}
+
+.connect-wallet-button2 span:nth-child(4){
+  bottom: 100%;
+  transition: 1s;
+  transition-delay:0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: color;
+  pointer-events: none;
+}
+
+
+.details-text{
+  margin-top: -60px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+  font-size: 30PX;
+  font-family: sans-serif;
+  letter-spacing: 0em;
+  
+}
+
+p span{
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+}
+
+@keyframes animate{
+  0%{
+      opacity: 0;
+      transform:rotateY(90deg) ;
+      filter: blur(10px);
+  }
+
+  100%{
+      opacity: 1;
+      transform:rotateY(0deg) ;
+      filter: blur(0px);
+  }
+}
+
+p span:nth-child(1){
+  animation-delay:1s;
+}
+
+p span:nth-child(2){
+  animation-delay:1.20s;
+}
+
+p span:nth-child(3){
+  animation-delay:1.40s;
+}
+
+p span:nth-child(4){
+  animation-delay:1.60s;
+}
+
+p span:nth-child(5){
+  animation-delay:1.80s;
+}
+p span:nth-child(6){
+  animation-delay:2s;
+}
+
+p span:nth-child(7){
+  animation-delay:2.20s;
+}
+
+p span:nth-child(8){
+  animation-delay:2.40s;
+}
+
+p span:nth-child(9){
+  animation-delay:2.60s;
+}
+
+p span:nth-child(10){
+  animation-delay:2.80s;
+}
+
+p span:nth-child(11){
+  animation-delay:3s;
+}
+p span:nth-child(12){
+  animation-delay:3.20s;
+}
+
+p span:nth-child(13){
+  animation-delay:3.40s;
+}
+
+p span:nth-child(14){
+  animation-delay:3.60s;
+}
+
+p span:nth-child(15){
+  animation-delay:3.80s;
+}
+
+p span:nth-child(16){
+  animation-delay:4s;
+}
+p span:nth-child(17){
+  animation-delay:4.20s;
+}
+
+p span:nth-child(18){
+  animation-delay:4.40s;
+}
+
+p span:nth-child(19){
+  animation-delay:4.60s;
+}
+
+p span:nth-child(20){
+  animation-delay:4.80s;
+}
+
+p span:nth-child(21){
+  animation-delay:5s;
+}
