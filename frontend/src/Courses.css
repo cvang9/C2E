@@ -430,7 +430,7 @@ body {
     transition: 0.5s ease-in-out;
     border: 0;
     outline: 0;
-    box-shadow: 0px 0px 8px rgba(21, 121, 214, 0.8);
+    box-shadow: 0px 0px 8px rgba(21, 214, 53, 0.8);
 }
 
 .showcaseCard:hover {
