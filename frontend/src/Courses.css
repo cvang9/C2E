@@ -445,7 +445,7 @@ body {
     left: 0;
     display: block;
     border-radius: 8px;
-    background: linear-gradient(180deg, rgba(7, 95, 176, 0.8) 0%, #0C2943 100%);
+    background: linear-gradient(180deg, rgba(7, 176, 13, 0.8) 0%, #0C2943 100%);
     z-index: 2;
     transition: all 0.5s ease-in-out;
     opacity: 0;
