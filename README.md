@@ -27,11 +27,11 @@ https://www.canva.com/design/DAFS1CsMN20/xT2ZXYLvIbDC3uxwDar15w/view?utm_content
 Step 1: Open the deployed project 
 
 ```sh
-https://c2-e.vercel.app/
+https://code2earn-134b0b.spheron.app/
 ```
 
 
-Step 2: Connect your Wallet 
+Step 2: Connect your Wallet ( Deployed on Georli ) 
 
 Step 3: Click on my profile.
 
@@ -54,4 +54,11 @@ Bingo! you are now good to go.
 
  - Give all the answer correctly then, user will get a button to get a quiz completion reward button.
  
+  ## Token Address 
+  
+  ```sh
+  0x7685430AC05306085BC6934BE4992f3BD1626F77
+
+```
+  - Paste the above addres to know your token balance
 
