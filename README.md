@@ -57,7 +57,7 @@ Bingo! you are now good to go.
   ## Token Address 
   
   ```sh
-  0x7685430AC05306085BC6934BE4992f3BD1626F77
+  0xA5A7F850b2FAdF6Ef64a32d2Bfc4749bD26a05D9
 
 ```
   - Paste the above addres to know your token balance
